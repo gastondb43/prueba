@@ -32,8 +32,6 @@ jobs:
 
       - name: Build
         run: npm run build
-        # GITHUB_ACTIONS=true ya está disponible automáticamente en Actions
-        # → vite.config.js usa base: '/prueba/'
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
