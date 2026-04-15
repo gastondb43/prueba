@@ -2,9 +2,24 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>TripFlow — Itinerarios Turísticos Gratis</title>
     <meta name="description" content="Creá itinerarios turísticos gratuitos optimizados por día y proximidad. Explorá ciudades, elegí tus lugares favoritos y compartí el plan con un link." />
+
+    <!-- PWA manifest -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- iOS / Safari PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="TripFlow" />
+    <link rel="apple-touch-icon" href="/icon.svg" />
+
+    <!-- Theme color (Android + Chrome) -->
+    <meta name="theme-color" content="#0d9488" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
   </head>
   <body>
     <div id="root"></div>
